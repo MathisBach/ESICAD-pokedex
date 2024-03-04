@@ -17,7 +17,7 @@ $query = $databaseConnection->query("SELECT NomPokemon, urlPhoto, T.libelleType 
     foreach ($pokemons as $pokemon) {
     echo "<tr>
     <td>" . $pokemon["NomPokemon"] . "</td>
-    <td><img src='" . $pokemon['urlPhoto']. "' alt='" . $pokemon["NomPokemon"] . "' width='100' height='150'></td>
+    <td><img src='" . $pokemon['urlPhoto']. "' alt='" . $pokemon["NomPokemon"] . "' width='50' height='50'></td>
     <td>" . $pokemon["Type 1"] . "</td>
     <td>" . $pokemon["Type 2"] . "</td>
     </tr>"; }

@@ -8,10 +8,10 @@ pour que la variable $databaseConnection soit utilisable dans votre page
 global $databaseConnection;
 
 /* A COMPLETER : remplacer les paramètres pour se connecter à votre base de données de pokémon */
-$databaseConnection = mysqli_connect(
+$databaseConnection  = mysqli_connect(
     "localhost",
     "root",
     null,
     "tp_pokemon2",
-    "3306"
+    3306
 );
