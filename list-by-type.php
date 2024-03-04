@@ -11,6 +11,6 @@ require_once("head.php");
     &gt;
     </pre>
 <?php
-require
+
 require_once("footer.php");
 ?>
