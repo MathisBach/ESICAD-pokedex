@@ -23,4 +23,7 @@ $query = $databaseConnection->query("SELECT NomPokemon, urlPhoto, T.libelleType 
     </tr>"; }
     echo "</table>"; }
     require_once("footer.php");
+
      ?>
+     
+     
